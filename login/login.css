@@ -14,6 +14,8 @@ body{
     width: 450px;
     background: purple;
     color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
 }
 .wrapper h1{
     font-size: 36px;
@@ -50,7 +52,7 @@ body{
 }
 .wrapper .remember{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-size: 15px;
     margin: -15px 0 15px;
 }
@@ -78,4 +80,24 @@ body{
     font-weight: 600;
     color: #333;
     /* text-align: center; */
+}
+.wrapper .register{
+    font-size: 14.5px;
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.register p a{
+    font-weight: 600;
+    text-decoration: none;
+    color: #fff;
+}
+.register a{
+    color: #fff;
+}
+.register a:hover{
+    text-decoration: underline;
 }
