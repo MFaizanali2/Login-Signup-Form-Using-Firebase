@@ -13,6 +13,7 @@ body{
    background-repeat: no-repeat;
    background-size: cover;
    background-position: center;
+   font-family: sans-serif;
 }
 .wrapper{
     width: 450px;
